@@ -1,0 +1,20 @@
+Florea Alexandru - Ionut
+323CA
+Tema1 - PC
+
+	
+	Pentru implementrea acestei teme am folosit scheletul de cod pus la 
+dispozitie in primele laboratoare. Am modifica scriptul de rulare astefel incat 
+sa primeasca un parametru in linie de comanda si anume numele fisierului de 
+intrare. Am inceput trimiterea de pachete cu marimea fisierului de intrare, 
+dupa care am continuat cu bucati din fisierul de intrare a caror lungime a fost 
+generata random.
+	Numele fisierul de iesire l-am format din numele fisierul de intrare la 
+care am adaugat inainte de extensie caracterul '1'. 
+	Timerul folosit este cel din lib.h, iar intarzierea pachetelor am facut-o 
+cu parametrul LOSS din scriptul de rulare. Se pierd 40% din pachete si tot 40% 
+dintre ele se corup. Aceste valori au fost determinate dupa mai multe rulari 
+ale programului, cu diferite fisiere de intrare. Programul merge pe orice tip 
+de fisier de intrare( in limita a 256 de pachete corecte trimse ), testul care 
+mi s-a parut mie cel mai relevant a fost pe un fisier sursa c++, care dupa ce a 
+fost trimis fisierul de iesire a compilat si rulat impecabil.
